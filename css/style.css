@@ -1,11 +1,12 @@
 body {
     font-family: 'Lato', sans-serif;
+    width: 1320px;
 }
 
 header {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
-    padding: 40px 100px;
+    padding: 40px 100px 0 100px;
     align-items: center;
 
 }
@@ -72,10 +73,9 @@ header {
 }
 
 .fea-img-box img {
-    width: 320px;
-    height: 478px;
-    flex-shrink: 0;
-    padding: 110px 78px 0 78px;
+    width: 260px;
+    height: 360px;
+    padding: 110px 35px 0 35px;
     margin: 10px;
     border-radius: 300px 300px 0px 0px;
 
@@ -95,7 +95,7 @@ header {
 
 .fea-img-box {
     color: #272727;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
