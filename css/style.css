@@ -1,3 +1,45 @@
-.header-banner{
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: flex;
     background: rgba(229, 84, 115, 0.10);
+    padding: 40px 100px;
+    align-items: center;
+    
+}
+.header-info{
+    margin-right: 70px;
+    
+
+}
+.header-info h3 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 0;
+
+}
+
+.header-info p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 10px 30px 0;
+}
+
+.primary-btn {
+    color: #FFF;
+    font-size: 15px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    padding: 16px 40px;
+}
+.header-img img{
+    width: 550px;
+    height: 600px;
 }
