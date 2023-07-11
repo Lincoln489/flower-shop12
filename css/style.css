@@ -7,13 +7,15 @@ header {
     background: rgba(229, 84, 115, 0.10);
     padding: 40px 100px;
     align-items: center;
-    
-}
-.header-info{
-    margin-right: 70px;
-    
 
 }
+
+.header-info {
+    margin-right: 70px;
+
+
+}
+
 .header-info h3 {
     color: #272727;
     font-family: Lato;
@@ -39,7 +41,62 @@ header {
     border: 0;
     padding: 16px 40px;
 }
-.header-img img{
+
+.header-img img {
     width: 550px;
     height: 600px;
+}
+
+/* header style end here */
+.fea-flowers {
+    padding: 200px;
+    text-align: center;
+}
+
+.primary-title {
+    color: #272727;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.primary-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 140px;
+}
+
+.fea-img {
+    display: flex;
+    justify-content: center;
+}
+
+.fea-img-box img {
+    width: 320px;
+    height: 478px;
+    flex-shrink: 0;
+    padding: 110px 78px 0 78px;
+    margin: 10px;
+    border-radius: 300px 300px 0px 0px;
+
+}
+
+.img-bg-color1 img {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.img-bg-color2 img {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.img-bg-color3 img {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.fea-img-box {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
